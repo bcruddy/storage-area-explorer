@@ -56,6 +56,5 @@ module.exports = function (grunt) {
     // Default task(s).
     grunt.registerTask('default', ['clean', 'karma', 'zip']);
 
-    grunt.registerTask("ci", ['clean', 'bower','karma', 'zip'])
-
+    grunt.registerTask('ci', ['clean', 'bower', 'karma', 'zip']);
 };
